@@ -21,8 +21,8 @@ public class Game_Over_Scene : MonoBehaviour {
 
     //This is the aspect of ContainerHeight/ScreenHeight in a correct looking screen
     private float gameOverTextHeight = 0.2083f;
-    private float scoreBoardHeight = 0.0390f;
-    private float highestScoreBoardHeight = 0.0364f;
+    private float scoreBoardHeight = 0.04f;
+    private float highestScoreBoardHeight = 0.04f;
 
     //This is the aspect of ContainerWidth/ScreenWidth in a correct looking screen
     private float gameOverTextWidth = 0.5555f;
@@ -31,8 +31,8 @@ public class Game_Over_Scene : MonoBehaviour {
 
     //This is the aspect of FontSize/ScreenHeight in a correct looking screen
     private float gameOverTextSize = 0.1041f;
-    private float scoreBoardSize = 0.04f;
-    private float highestScoreBoardSize = 0.04f;
+    private float scoreBoardSize = 0.0390f;
+    private float highestScoreBoardSize = 0.0364f;
     private float resetSize = 0.1953f;
     private float resetImageSize = 0.1302f;
 
