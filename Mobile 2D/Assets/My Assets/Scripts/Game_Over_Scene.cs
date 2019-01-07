@@ -69,12 +69,6 @@ public class Game_Over_Scene : MonoBehaviour {
 
         //Prints the highest score
         highestScoreBoard.text = "Highest Score: " + highestScore.ToString();
-
-        //Every 5 plays, it shows an ad
-        Data_Bridge.TimesPlayed++;
-        if (Data_Bridge.TimesPlayed % 5 == 0) {
-            AdShower.showAd();
-        }
     }
 
     // Update is called once per frame
