@@ -53,7 +53,7 @@ public class Splash_Screen : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (Input.touchCount > 0f)
+        if (Input.touchCount > 0f || Input.GetButtonDown("Fire1"))
         {
             //Calls LoadMain
             LoadMain();
