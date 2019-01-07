@@ -31,8 +31,8 @@ public class Game_Over_Scene : MonoBehaviour {
 
     //This is the aspect of FontSize/ScreenHeight in a correct looking screen
     private float gameOverTextSize = 0.1041f;
-    private float scoreBoardSize = 0.04f;
-    private float highestScoreBoardSize = 0.04f;
+    private float scoreBoardSize = 0.0390f;
+    private float highestScoreBoardSize = 0.0364f;
     private float resetSize = 0.1953f;
     private float resetImageSize = 0.1302f;
 
