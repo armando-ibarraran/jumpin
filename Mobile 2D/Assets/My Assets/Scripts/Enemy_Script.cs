@@ -29,11 +29,11 @@ public class Enemy_Script : MonoBehaviour {
 	void Update () {
 
         //If the object passes this line, it will be destroyed
-        if (rb.position.x > 3)
+        if (rb.position.x >= 3f)
         {
             Destroy(gameObject);
         }
-        if (rb.position.x < -3)
+        if (rb.position.x <= -3f)
         {
             Destroy(gameObject);
         }

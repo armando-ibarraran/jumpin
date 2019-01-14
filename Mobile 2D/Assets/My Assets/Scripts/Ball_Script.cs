@@ -44,8 +44,8 @@ public class Ball_Script : MonoBehaviour {
                     rb.AddForce(new Vector2(0f, 7f), ForceMode.Impulse);
                 }
             }
-            if (Input.GetButtonDown("Fire1")) {
-                //Makes the ball jump
+            if (Input.GetButtonDown("Fire1"))
+            {
                 rb.AddForce(new Vector2(0f, 7f), ForceMode.Impulse);
             }
         }

@@ -21,8 +21,8 @@ public class Game_Over_Scene : MonoBehaviour {
 
     //This is the aspect of ContainerHeight/ScreenHeight in a correct looking screen
     private float gameOverTextHeight = 0.2083f;
-    private float scoreBoardHeight = 0.04f;
-    private float highestScoreBoardHeight = 0.04f;
+    private float scoreBoardHeight = 0.0390f;
+    private float highestScoreBoardHeight = 0.0364f;
 
     //This is the aspect of ContainerWidth/ScreenWidth in a correct looking screen
     private float gameOverTextWidth = 0.5555f;
@@ -69,6 +69,12 @@ public class Game_Over_Scene : MonoBehaviour {
 
         //Prints the highest score
         highestScoreBoard.text = "Highest Score: " + highestScore.ToString();
+
+        //Every 5 plays, it shows an ad
+        Data_Bridge.TimesPlayed++;
+        if (Data_Bridge.TimesPlayed % 5 == 0) {
+            AdShower.showAd();
+        }
     }
 
     // Update is called once per frame
