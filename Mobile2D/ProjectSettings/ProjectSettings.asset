@@ -249,8 +249,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 5
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/carlo/Desktop/Jumpin/AdVersion/jumpin-219b8c9b61d6e96c468dd1145d834d926315c700/Mobile
-    2D/user.keystore
+  AndroidKeystoreName: C:/Users/carlo/Desktop/user.keystore
   AndroidKeyaliasName: jumpin
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 1
