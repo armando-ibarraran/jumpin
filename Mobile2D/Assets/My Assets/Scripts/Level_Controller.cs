@@ -30,6 +30,13 @@ public class Level_Controller : MonoBehaviour {
         SceneManager.LoadScene("Splash_Screen");
     }
 
+    public void LoadLeaderboard()
+    {
+        Data_Bridge.Score = 0f;
+        Data_Bridge.colorMode = false;
+        SceneManager.LoadScene("Leaderboard");
+    }
+
     public void newGame()
     {
         Data_Bridge.Score = 0f;

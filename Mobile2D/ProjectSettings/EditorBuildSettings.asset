@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ColorMode.unity
     guid: 9af3a7c867ef79748a19ef7c4d18069b
+  - enabled: 1
+    path: Assets/Scenes/Leaderboard.unity
+    guid: 15859adc349fc904f9365eaa0eb10985
   m_configObjects: {}
