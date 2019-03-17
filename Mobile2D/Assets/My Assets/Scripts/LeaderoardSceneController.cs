@@ -10,9 +10,9 @@ public class LeaderoardSceneController : MonoBehaviour
     public Text leaderboardText;
     public RectTransform home;
 
-    public ListView leaderboard = new ListView();
+    public ListView leaderboard;
 
-    private List<string> leaderboardItems = new List<string>();
+    private List<string> leaderboardItems;
 
     private float leaderboardTextPos = 0.2865f;
 
@@ -30,6 +30,8 @@ public class LeaderoardSceneController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        leaderboard = new ListView();
+        leaderboardItems = new List<string>();
 
         leaderboardText.rectTransform.position = new Vector2(Screen.width / 2, (Screen.height / 2) + (Screen.height * leaderboardTextPos));
         home.position = new Vector2((Screen.width/2)+(Screen.width*homePosX), (Screen.height/2)+(Screen.height*homePosY));

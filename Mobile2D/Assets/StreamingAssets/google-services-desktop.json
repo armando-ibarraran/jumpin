@@ -1,42 +1,37 @@
 {
-  "project_info": {
-    "project_number": "804283973470",
-    "firebase_url": "https://jumpin-5b93a.firebaseio.com",
-    "project_id": "jumpin-5b93a",
-    "storage_bucket": "jumpin-5b93a.appspot.com"
-  },
   "client": [
     {
-      "client_info": {
-        "mobilesdk_app_id": "1:804283973470:android:e4a8bd3172eb83d7",
-        "android_client_info": {
-          "package_name": "com.libelulasoftware.jumpin"
+      "services": {
+        "appinvite_service": {
+          "status": 0
+        }, 
+        "analytics_service": {
+          "status": 0
         }
-      },
+      }, 
       "oauth_client": [
         {
-          "client_id": "804283973470-p0gnhl7tg9g8h69lt41aurbj9d3jt3vc.apps.googleusercontent.com",
-          "client_type": 3
+          "client_id": "804283973470-74aa4fcss6p3rg5m1ip37c1bgthb9t59.apps.googleusercontent.com"
         }
-      ],
+      ], 
       "api_key": [
         {
-          "current_key": "AIzaSyDkoM7xmH8uGxv9W6-qV50FDE3W80boC64"
+          "current_key": "AIzaSyCwI5IN8piDEXQS0Yp0wlSmuH3NQURZYwI"
         }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+      ], 
+      "client_info": {
+        "mobilesdk_app_id": "1:804283973470:ios:bd87156477f448e1", 
+        "android_client_info": {
+          "package_name": "com.ibarraransoftware.jumpin"
         }
       }
     }
-  ],
-  "configuration_version": "1"
+  ], 
+  "configuration_version": "1", 
+  "project_info": {
+    "storage_bucket": "jumpin-5b93a.appspot.com", 
+    "project_id": "jumpin-5b93a", 
+    "firebase_url": "https://jumpin-5b93a.firebaseio.com", 
+    "project_number": "804283973470"
+  }
 }
