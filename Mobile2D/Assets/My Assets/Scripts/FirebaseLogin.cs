@@ -136,7 +136,7 @@ public class FirebaseLogin : MonoBehaviour
         foreach(var item in players)
         {
             usernames.Add(item.Value);
-            scores.Add(Mathf.Abs(Mathf.Abs(float.Parse(item.Key))));
+            scores.Add(Mathf.Abs(float.Parse(item.Key)));
         }
 
        
